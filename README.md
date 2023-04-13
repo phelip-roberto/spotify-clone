@@ -2,26 +2,83 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
 
-## Development server
+<p align="center">	
+   <a href="https://www.linkedin.com/in/phelip-roberto">
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+   </a>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/phelip-roberto/spotify-clone?color=FB250">
 
-## Code scaffolding
+  <a href="https://github.com/phelip-roberto/spotify-clone/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/phelip-roberto/spotify-clone?color=FB250">
+  </a> 
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## :computer: Technologies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+This project was developed using:
 
-## Running unit tests
+* Angular CLI - https://cli.angular.io/
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* NodeJs - https://www.npmjs.com/get-npm
 
-## Running end-to-end tests
+* Figma - https://www.figma.com/
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+* GitHub Pages - https://pages.github.com
 
-## Further help
+* Spotify API - https://developer.spotify.com/
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## :book: Documentation
+
+* Documentation for get started with the stable version of [Angular](https://angular.io/);
+
+* Design that was used for developing this project: [Spotify UI](https://www.figma.com/file/QuIN69Tjl1G8tkBovCXm3o/Spotify-Web-UI-(Community)?node-id=1-2&t=WNTFabqeMoEbc6yw-0);
+
+* API that was used for developing this project: [Spotify Developer](https://developer.spotify.com/documentation/web-api);
+
+* Documentation for get started with [GitHub Pages](https://docs.github.com/en/pages);
+
+## :construction_worker: Installation
+
+### Clone repo
+
+Copy all your files to your project folder and then:
+
+``` bash
+#go into app's directory
+$ cd spotify-clone
+
+# install app's dependencies
+$ npm install
+```
+### Usage
+
+``` bash
+
+# serve at localhost:4200 with the proxy configuration for the use of the services
+$ npm start
+
+# build for production with minification
+$ npm run build
+
+```
+
+## What's included
+
+```
+
+spotify-clone/
+├── e2e/
+├── src/
+│   ├── app/
+│   ├── assests/
+│   ├── environments/
+│   ├── index.html
+│   └── ...
+├── .angular.json
+├── ...
+├── package.json
+└── ...
+```
+
